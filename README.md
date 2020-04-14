@@ -17,7 +17,7 @@ Then I looked for working alternatives to the Lego SDK. A few still available re
 * BrickOS: http://brickos.sourceforge.net/
 * Quite C: http://www.elenafrancesco.org/old/lego/qc/index.html
 * https://pbrick.info/rcx-firmware/
-* leJOS: http://www.lejos.org/
+* leJOS: http://www.lejos.org/rcx.php
 
 ## leJOS
 I choose leJOS because I know the Java programming language. As the most recent version seems to be the best option to try, I first attempted to get leJOS RCX 3.0 RC2 working but that version turns out to require the USB IR Tower so I switched to leJOS 2.1.0.
