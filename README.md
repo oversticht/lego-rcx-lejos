@@ -8,7 +8,7 @@ Recently I got my hands on a Lego Robotics Invention System 1.5 from 1999. It co
 And extensive technical details about the RCX hardware are still available: http://www.mralligator.com/rcx/
 
 ## Original software
-The original software was documented to be designed for Windows(c) 95/98 and doesn't run on my 64-bit Windows 10 computer.
+The original software (available here: https://philohome.com/sdk25/sdk25.htm) was documented to be designed for Windows(c) 95/98 and doesn't run on my 64-bit Windows 10 computer.
 
 ## Alternative software
 Then I looked for working alternatives to the Lego SDK. A few still available resources are:
