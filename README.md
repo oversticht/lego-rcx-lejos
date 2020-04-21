@@ -22,3 +22,8 @@ Then I looked for working alternatives to the Lego SDK. A few still available re
 ## leJOS
 I choose leJOS because I know the Java programming language. As the most recent version seems to be the best option to try, I first attempted to get leJOS RCX 3.0 RC2 working but that version turns out to require the USB IR Tower so I switched to leJOS 2.1.0.
 This version requires working with Java 1.1. Support for Java 1.1 was dropped in the Java Development Kit 1.6 so I got Java SE 5 (JDK) from https://www.oracle.com/java/technologies/java-archive-javase5-downloads.html. Even with this JDK, source code written for Java 4 or Java 5 can't be compiled to Java 1.1 binary class files, so the parameter -source 1.3 must be specified explicitly.
+
+## Programming environment
+As leJOS is Java, I have IntelliJ IDEA community edition as programming environment. This doesn't work with Java 5 and older versions. IntelliJ IDEA does however still support Apache Ant 1.9.14 which in turn support Java 5 and newer.
+
+Java 5 is the maximum version for leJOS and the minimum version voor Apache Ant 1.9.14 so Java 5 is just right. An Ant build script can compile the java source code and send it directly to the RCX, all from the programming environment.
