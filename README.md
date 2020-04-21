@@ -7,6 +7,9 @@ Running the leJOS VM on a Lego Mindstorms RCX in 2020 takes some effort. This ha
 Recently I got my hands on a Lego Robotics Invention System 1.5 from 1999. It contains an RCX 1.0 without a power jack, two touch sensors, a light sensor, two 9v motors and a serial IR Transmitter Tower. The USB IR Tower is reported not to work on 64-bit systems (no driver). I got the Serial IR Tower working using a LogiLink AU0002E RS232 adapter.
 And extensive technical details about the RCX hardware are still available: http://www.mralligator.com/rcx/
 
+### Infrared
+Some infrared signals for the RCX are documented here: https://github.com/JorgePe/UniBrick and here: https://ofalcao.pt/blog/2017/decoding-rcx-ir-command-protocol
+
 ## Original software
 The original software (available here: https://philohome.com/sdk25/sdk25.htm) was documented to be designed for Windows(c) 95/98 and doesn't run on my 64-bit Windows 10 computer.
 
