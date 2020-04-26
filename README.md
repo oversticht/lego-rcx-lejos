@@ -34,4 +34,5 @@ Java 5 is the maximum version for leJOS and the minimum version voor Apache Ant 
 ## Next steps
 As support for Java 5 is fading away quickly, the leJOS approach may not last long. The most recent spin-off is:
 * HaikuVM http://haiku-vm.sourceforge.net/ (not updated since April 30, 2017)
+
 Though over 3 years old now, it is still very useful. This virtual machine was originally created to support Java on Arduino and added RCX support in december 2015. At that time Java 7 had been around for a while and consequently HaikuVM requires Java 6 as a minimum. This allows for better support at least until october 2024 (when regular  support for Java SE 11 (LTS) will end).
