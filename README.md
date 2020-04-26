@@ -30,3 +30,8 @@ This version requires working with Java 1.1. Support for Java 1.1 was dropped in
 As leJOS is Java, I have IntelliJ IDEA community edition as programming environment. This doesn't work with Java 5 and older versions. IntelliJ IDEA does however still support Apache Ant 1.9.14 which in turn support Java 5 and newer.
 
 Java 5 is the maximum version for leJOS and the minimum version voor Apache Ant 1.9.14 so Java 5 is just right. An Ant build script can compile the java source code and send it directly to the RCX, all from the programming environment.
+
+## Next steps
+As support for Java 5 is fading away quickly, the leJOS approach may not last long. The most recent spin-off is:
+* HaikuVM http://haiku-vm.sourceforge.net/ (not updated since April 30, 2017)
+Though over 3 years old now, it is still very useful. This virtual machine was originally created to support Java on Arduino and added RCX support in december 2015. At that time Java 7 had been around for a while and consequently HaikuVM requires Java 6 as a minimum. This allows for better support at least until october 2024 (when regular  support for Java SE 11 (LTS) will end).
