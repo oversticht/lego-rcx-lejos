@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../lejos2.2/sources/java/classes/classes.iml" filepath="$PROJECT_DIR$/../lejos2.2/sources/java/classes/classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lejos2.2/sources/java/jtools/jtools.iml" filepath="$PROJECT_DIR$/../lejos2.2/sources/java/jtools/jtools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lejos2.2/sources/java/pcrcxcomm/pcrcxcomm.iml" filepath="$PROJECT_DIR$/../lejos2.2/sources/java/pcrcxcomm/pcrcxcomm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lejos2.2/sources/java/rcxrcxcomm/rcxrcxcomm.iml" filepath="$PROJECT_DIR$/../lejos2.2/sources/java/rcxrcxcomm/rcxrcxcomm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lejos2.2/sources/java/regression/regression.iml" filepath="$PROJECT_DIR$/../lejos2.2/sources/java/regression/regression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lejos2.2/sources/java/vision/vision.iml" filepath="$PROJECT_DIR$/../lejos2.2/sources/java/vision/vision.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="dist" basedir=".">
+  <description>
+    simple example build file
+  </description>
+  <!-- set global properties for this build -->
+  <property name="src.dir" location="src"/>
+  <property name="lib.dir" location="lib"/>
+  <property name="build.dir" location="build"/>
+  <property name="dist.dir" location="dist"/>
+  <basename property="name" file="${basedir}" />
+
+  <path id="classpath">
+
+    <!-- include all jars in the lib directory and all sub-directories -->
+    <fileset dir="${lib.dir}">
+      <include name="**/*.jar" />
+    </fileset>
+
+  </path>
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build.dir}"/>
+  </target>
+
+  <target name="compile" depends="init"
+          description="compile the source">
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac includeantruntime="false" srcdir="${src.dir}" destdir="${build.dir}" classpathref="classpath"/>
+  </target>
+
+  <target name="dist" depends="compile"
+          description="generate the distribution">
+    <!-- Create the distribution directory -->
+    <mkdir dir="${dist.dir}/lib"/>
+
+    <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+    <jar jarfile="${dist.dir}/lib/${name}-${DSTAMP}.jar" basedir="${build.dir}"/>
+  </target>
+
+  <target name="clean"
+          description="clean up">
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build.dir}"/>
+    <delete dir="${dist.dir}"/>
+  </target>
+</project>

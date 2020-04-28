@@ -1,0 +1,680 @@
+----------------- Run of Test04.tvm
+> set_lcd_number (unsigned) 101
+> refresh_display
+> set_lcd_number (unsigned) 4490
+> refresh_display
+> set_lcd_number (unsigned) 4181
+> refresh_display
+> set_lcd_number (unsigned) 4300
+> refresh_display
+> set_lcd_number (unsigned) 4175
+> refresh_display
+----------------- Run of Test06.tvm
+> set_motor 0 FORWARD 1
+> set_motor 2 FORWARD 7
+> set_motor 0 BRAKE 1
+> set_motor 2 BRAKE 1
+> play_sound_or_set_data_pointertone freq 0xbb8, duration 0x64
+> play_sound_or_set_data_pointertone freq 0x7d0, duration 0x64
+> play_sound_or_set_data_pointertone freq 0x3e8, duration 0x64
+> set_motor 0 FORWARD 1
+> set_motor 0 BRAKE 1
+*** UNCAUGHT EXCEPTION/ERROR: 
+--  Exception class   : 8
+--  Thread            : 1
+--  Method signature  : 0
+--  Root method sig.  : 0
+--  Bytecode offset   : 146
+----------------- Run of Test07.tvm
+> set_motor 0 FORWARD 1
+> set_motor 0 BRAKE 1
+> play_sound_or_set_data_pointertone freq 0x258, duration 0x32
+> set_lcd_number (unsigned) 1802
+> refresh_display
+> play_sound_or_set_data_pointertone freq 0x708, duration 0xc8
+> set_lcd_number (unsigned) 4490
+> refresh_display
+> set_motor 2 FORWARD 1
+> set_motor 2 BRAKE 1
+----------------- Run of Test11.tvm
+> play_sound_or_set_data_pointertone freq 0x7d0, duration 0x14
+> play_sound_or_set_data_pointertone freq 0xc8, duration 0x14
+> play_sound_or_set_data_pointertone freq 0x7d0, duration 0x14
+> play_sound_or_set_data_pointertone freq 0xc8, duration 0x14
+> play_sound_or_set_data_pointertone freq 0x7d0, duration 0x14
+> play_sound_or_set_data_pointertone freq 0xc8, duration 0x14
+> play_sound_or_set_data_pointertone freq 0x7d0, duration 0x14
+> play_sound_or_set_data_pointertone freq 0xc8, duration 0x14
+> play_sound_or_set_data_pointertone freq 0x7d0, duration 0x14
+> play_sound_or_set_data_pointertone freq 0xc8, duration 0x14
+----------------- Run of Test12.tvm
+> set_lcd_number (unsigned) 25
+> refresh_display
+> set_lcd_number (unsigned) 40
+> refresh_display
+> set_lcd_number (unsigned) 40
+> refresh_display
+----------------- Run of Test13.tvm
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 4034
+> refresh_display
+> set_lcd_number program number=5
+> refresh_display
+*** UNCAUGHT EXCEPTION/ERROR: 
+--  Exception class   : 5
+--  Thread            : 1
+--  Method signature  : 0
+--  Root method sig.  : 0
+--  Bytecode offset   : 29
+----------------- Run of Test14.tvm
+*** UNCAUGHT EXCEPTION/ERROR: 
+--  Exception class   : 7
+--  Thread            : 2
+--  Method signature  : 1
+--  Root method sig.  : 1
+--  Bytecode offset   : 19
+> set_lcd_number (unsigned) 210
+> refresh_display
+*** UNCAUGHT EXCEPTION/ERROR: 
+--  Exception class   : 7
+--  Thread            : 3
+--  Method signature  : 1
+--  Root method sig.  : 1
+--  Bytecode offset   : 23
+> set_lcd_number (unsigned) 59
+> refresh_display
+----------------- Run of Test26.tvm
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 1
+> refresh_display
+> set_lcd_number (unsigned) 2
+> refresh_display
+> set_lcd_number (unsigned) 3
+> refresh_display
+> set_lcd_number (unsigned) 4
+> refresh_display
+> set_lcd_number (unsigned) 5
+> refresh_display
+> set_lcd_number (unsigned) 6
+> refresh_display
+> set_lcd_number (unsigned) 7
+> refresh_display
+> set_lcd_number (unsigned) 8
+> refresh_display
+> set_lcd_number (unsigned) 9
+> refresh_display
+> set_lcd_number (unsigned) 10
+> refresh_display
+> set_lcd_number (unsigned) 11
+> refresh_display
+> set_lcd_number (unsigned) 12
+> refresh_display
+> set_lcd_number (unsigned) 13
+> refresh_display
+> set_lcd_number (unsigned) 14
+> refresh_display
+> set_lcd_number (unsigned) 15
+> refresh_display
+> set_lcd_number (unsigned) 16
+> refresh_display
+> set_lcd_number (unsigned) 17
+> refresh_display
+> set_lcd_number (unsigned) 18
+> refresh_display
+> set_lcd_number (unsigned) 19
+> refresh_display
+> set_lcd_number (unsigned) 20
+> refresh_display
+> set_lcd_number (unsigned) 21
+> refresh_display
+> set_lcd_number (unsigned) 22
+> refresh_display
+> set_lcd_number (unsigned) 23
+> refresh_display
+> set_lcd_number (unsigned) 24
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 2
+> refresh_display
+> set_lcd_number (unsigned) 4
+> refresh_display
+> set_lcd_number (unsigned) 6
+> refresh_display
+> set_lcd_number (unsigned) 8
+> refresh_display
+> set_lcd_number (unsigned) 10
+> refresh_display
+> set_lcd_number (unsigned) 12
+> refresh_display
+> set_lcd_number (unsigned) 14
+> refresh_display
+> set_lcd_number (unsigned) 16
+> refresh_display
+> set_lcd_number (unsigned) 18
+> refresh_display
+> set_lcd_number (unsigned) 20
+> refresh_display
+> set_lcd_number (unsigned) 22
+> refresh_display
+> set_lcd_number (unsigned) 24
+> refresh_display
+> set_lcd_number (unsigned) 26
+> refresh_display
+> set_lcd_number (unsigned) 28
+> refresh_display
+> set_lcd_number (unsigned) 30
+> refresh_display
+> set_lcd_number (unsigned) 32
+> refresh_display
+> set_lcd_number (unsigned) 34
+> refresh_display
+> set_lcd_number (unsigned) 36
+> refresh_display
+> set_lcd_number (unsigned) 38
+> refresh_display
+> set_lcd_number (unsigned) 40
+> refresh_display
+> set_lcd_number (unsigned) 42
+> refresh_display
+> set_lcd_number (unsigned) 44
+> refresh_display
+> set_lcd_number (unsigned) 46
+> refresh_display
+> set_lcd_number (unsigned) 48
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 3
+> refresh_display
+> set_lcd_number (unsigned) 6
+> refresh_display
+> set_lcd_number (unsigned) 9
+> refresh_display
+> set_lcd_number (unsigned) 12
+> refresh_display
+> set_lcd_number (unsigned) 15
+> refresh_display
+> set_lcd_number (unsigned) 18
+> refresh_display
+> set_lcd_number (unsigned) 21
+> refresh_display
+> set_lcd_number (unsigned) 24
+> refresh_display
+> set_lcd_number (unsigned) 27
+> refresh_display
+> set_lcd_number (unsigned) 30
+> refresh_display
+> set_lcd_number (unsigned) 33
+> refresh_display
+> set_lcd_number (unsigned) 36
+> refresh_display
+> set_lcd_number (unsigned) 39
+> refresh_display
+> set_lcd_number (unsigned) 42
+> refresh_display
+> set_lcd_number (unsigned) 45
+> refresh_display
+> set_lcd_number (unsigned) 48
+> refresh_display
+> set_lcd_number (unsigned) 51
+> refresh_display
+> set_lcd_number (unsigned) 54
+> refresh_display
+> set_lcd_number (unsigned) 57
+> refresh_display
+> set_lcd_number (unsigned) 60
+> refresh_display
+> set_lcd_number (unsigned) 63
+> refresh_display
+> set_lcd_number (unsigned) 66
+> refresh_display
+> set_lcd_number (unsigned) 69
+> refresh_display
+> set_lcd_number (unsigned) 72
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 4
+> refresh_display
+> set_lcd_number (unsigned) 8
+> refresh_display
+> set_lcd_number (unsigned) 12
+> refresh_display
+> set_lcd_number (unsigned) 16
+> refresh_display
+> set_lcd_number (unsigned) 20
+> refresh_display
+> set_lcd_number (unsigned) 24
+> refresh_display
+> set_lcd_number (unsigned) 28
+> refresh_display
+> set_lcd_number (unsigned) 32
+> refresh_display
+> set_lcd_number (unsigned) 36
+> refresh_display
+> set_lcd_number (unsigned) 40
+> refresh_display
+> set_lcd_number (unsigned) 44
+> refresh_display
+> set_lcd_number (unsigned) 48
+> refresh_display
+> set_lcd_number (unsigned) 52
+> refresh_display
+> set_lcd_number (unsigned) 56
+> refresh_display
+> set_lcd_number (unsigned) 60
+> refresh_display
+> set_lcd_number (unsigned) 64
+> refresh_display
+> set_lcd_number (unsigned) 68
+> refresh_display
+> set_lcd_number (unsigned) 72
+> refresh_display
+> set_lcd_number (unsigned) 76
+> refresh_display
+> set_lcd_number (unsigned) 80
+> refresh_display
+> set_lcd_number (unsigned) 84
+> refresh_display
+> set_lcd_number (unsigned) 88
+> refresh_display
+> set_lcd_number (unsigned) 92
+> refresh_display
+> set_lcd_number (unsigned) 96
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 5
+> refresh_display
+> set_lcd_number (unsigned) 10
+> refresh_display
+> set_lcd_number (unsigned) 15
+> refresh_display
+> set_lcd_number (unsigned) 20
+> refresh_display
+> set_lcd_number (unsigned) 25
+> refresh_display
+> set_lcd_number (unsigned) 30
+> refresh_display
+> set_lcd_number (unsigned) 35
+> refresh_display
+> set_lcd_number (unsigned) 40
+> refresh_display
+> set_lcd_number (unsigned) 45
+> refresh_display
+> set_lcd_number (unsigned) 50
+> refresh_display
+> set_lcd_number (unsigned) 55
+> refresh_display
+> set_lcd_number (unsigned) 60
+> refresh_display
+> set_lcd_number (unsigned) 65
+> refresh_display
+> set_lcd_number (unsigned) 70
+> refresh_display
+> set_lcd_number (unsigned) 75
+> refresh_display
+> set_lcd_number (unsigned) 80
+> refresh_display
+> set_lcd_number (unsigned) 85
+> refresh_display
+> set_lcd_number (unsigned) 90
+> refresh_display
+> set_lcd_number (unsigned) 95
+> refresh_display
+> set_lcd_number (unsigned) 100
+> refresh_display
+> set_lcd_number (unsigned) 105
+> refresh_display
+> set_lcd_number (unsigned) 110
+> refresh_display
+> set_lcd_number (unsigned) 115
+> refresh_display
+> set_lcd_number (unsigned) 120
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 6
+> refresh_display
+> set_lcd_number (unsigned) 12
+> refresh_display
+> set_lcd_number (unsigned) 18
+> refresh_display
+> set_lcd_number (unsigned) 24
+> refresh_display
+> set_lcd_number (unsigned) 30
+> refresh_display
+> set_lcd_number (unsigned) 36
+> refresh_display
+> set_lcd_number (unsigned) 42
+> refresh_display
+> set_lcd_number (unsigned) 48
+> refresh_display
+> set_lcd_number (unsigned) 54
+> refresh_display
+> set_lcd_number (unsigned) 60
+> refresh_display
+> set_lcd_number (unsigned) 66
+> refresh_display
+> set_lcd_number (unsigned) 72
+> refresh_display
+> set_lcd_number (unsigned) 78
+> refresh_display
+> set_lcd_number (unsigned) 84
+> refresh_display
+> set_lcd_number (unsigned) 90
+> refresh_display
+> set_lcd_number (unsigned) 96
+> refresh_display
+> set_lcd_number (unsigned) 102
+> refresh_display
+> set_lcd_number (unsigned) 108
+> refresh_display
+> set_lcd_number (unsigned) 114
+> refresh_display
+> set_lcd_number (unsigned) 120
+> refresh_display
+> set_lcd_number (unsigned) 126
+> refresh_display
+> set_lcd_number (unsigned) 132
+> refresh_display
+> set_lcd_number (unsigned) 138
+> refresh_display
+> set_lcd_number (unsigned) 144
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 7
+> refresh_display
+> set_lcd_number (unsigned) 14
+> refresh_display
+> set_lcd_number (unsigned) 21
+> refresh_display
+> set_lcd_number (unsigned) 28
+> refresh_display
+> set_lcd_number (unsigned) 35
+> refresh_display
+> set_lcd_number (unsigned) 42
+> refresh_display
+> set_lcd_number (unsigned) 49
+> refresh_display
+> set_lcd_number (unsigned) 56
+> refresh_display
+> set_lcd_number (unsigned) 63
+> refresh_display
+> set_lcd_number (unsigned) 70
+> refresh_display
+> set_lcd_number (unsigned) 77
+> refresh_display
+> set_lcd_number (unsigned) 84
+> refresh_display
+> set_lcd_number (unsigned) 91
+> refresh_display
+> set_lcd_number (unsigned) 98
+> refresh_display
+> set_lcd_number (unsigned) 105
+> refresh_display
+> set_lcd_number (unsigned) 112
+> refresh_display
+> set_lcd_number (unsigned) 119
+> refresh_display
+> set_lcd_number (unsigned) 126
+> refresh_display
+> set_lcd_number (unsigned) 133
+> refresh_display
+> set_lcd_number (unsigned) 140
+> refresh_display
+> set_lcd_number (unsigned) 147
+> refresh_display
+> set_lcd_number (unsigned) 154
+> refresh_display
+> set_lcd_number (unsigned) 161
+> refresh_display
+> set_lcd_number (unsigned) 168
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 8
+> refresh_display
+> set_lcd_number (unsigned) 16
+> refresh_display
+> set_lcd_number (unsigned) 24
+> refresh_display
+> set_lcd_number (unsigned) 32
+> refresh_display
+> set_lcd_number (unsigned) 40
+> refresh_display
+> set_lcd_number (unsigned) 48
+> refresh_display
+> set_lcd_number (unsigned) 56
+> refresh_display
+> set_lcd_number (unsigned) 64
+> refresh_display
+> set_lcd_number (unsigned) 72
+> refresh_display
+> set_lcd_number (unsigned) 80
+> refresh_display
+> set_lcd_number (unsigned) 88
+> refresh_display
+> set_lcd_number (unsigned) 96
+> refresh_display
+> set_lcd_number (unsigned) 104
+> refresh_display
+> set_lcd_number (unsigned) 112
+> refresh_display
+> set_lcd_number (unsigned) 120
+> refresh_display
+> set_lcd_number (unsigned) 128
+> refresh_display
+> set_lcd_number (unsigned) 136
+> refresh_display
+> set_lcd_number (unsigned) 144
+> refresh_display
+> set_lcd_number (unsigned) 152
+> refresh_display
+> set_lcd_number (unsigned) 160
+> refresh_display
+> set_lcd_number (unsigned) 168
+> refresh_display
+> set_lcd_number (unsigned) 176
+> refresh_display
+> set_lcd_number (unsigned) 184
+> refresh_display
+> set_lcd_number (unsigned) 192
+> refresh_display
+> set_lcd_number (unsigned) 0
+> refresh_display
+> set_lcd_number (unsigned) 9
+> refresh_display
+> set_lcd_number (unsigned) 18
+> refresh_display
+> set_lcd_number (unsigned) 27
+> refresh_display
+> set_lcd_number (unsigned) 36
+> refresh_display
+> set_lcd_number (unsigned) 45
+> refresh_display
+> set_lcd_number (unsigned) 54
+> refresh_display
+> set_lcd_number (unsigned) 63
+> refresh_display
+> set_lcd_number (unsigned) 72
+> refresh_display
+> set_lcd_number (unsigned) 81
+> refresh_display
+> set_lcd_number (unsigned) 90
+> refresh_display
+> set_lcd_number (unsigned) 99
+> refresh_display
+> set_lcd_number (unsigned) 108
+> refresh_display
+> set_lcd_number (unsigned) 117
+> refresh_display
+> set_lcd_number (unsigned) 126
+> refresh_display
+> set_lcd_number (unsigned) 135
+> refresh_display
+> set_lcd_number (unsigned) 144
+> refresh_display
+> set_lcd_number (unsigned) 153
+> refresh_display
+> set_lcd_number (unsigned) 162
+> refresh_display
+> set_lcd_number (unsigned) 171
+> refresh_display
+> set_lcd_number (unsigned) 180
+> refresh_display
+> set_lcd_number (unsigned) 189
+> refresh_display
+> set_lcd_number (unsigned) 198
+> refresh_display
+> set_lcd_number (unsigned) 207
+> refresh_display
+> set_lcd_number (unsigned) 216
+> refresh_display
+----------------- Run of Test28.tvm
+> set_lcd_number (unsigned) 1
+> refresh_display
+> set_lcd_number (unsigned) 2
+> refresh_display
+> set_lcd_number (unsigned) 3
+> refresh_display
+> set_lcd_number (unsigned) 4
+> refresh_display
+----------------- Run of Test33.tvm
+> set_lcd_number (unsigned) 10
+> refresh_display
+> set_lcd_number (unsigned) 11
+> refresh_display
+> set_lcd_number (unsigned) 12
+> refresh_display
+> set_lcd_number (unsigned) 13
+> refresh_display
+> set_lcd_number (unsigned) 14
+> refresh_display
+> set_lcd_number (unsigned) 15
+> refresh_display
+----------------- Run of TestRuntime.tvm
+> set_lcd_number (unsigned) 98
+> refresh_display
+> set_lcd_number (unsigned) 98
+> refresh_display
+> set_lcd_number (unsigned) 16100
+> refresh_display
+> set_lcd_number (unsigned) 16380
+> refresh_display
+----------------- Run of TestPriorities.tvm
+----------------- Run of TestDaemon.tvm
+----------------- Run of TestThreadState.tvm
+----------------- Run of TestMonitor.tvm
+----------------- Run of PriorityInversion.tvm
+----------------- Run of TestNat.tvm
+> Setting sensor 0, type LIGHT
+> Setting sensor 0, mode = PERCENT, slope = 0
+> Setting sensor 1, type LIGHT
+> Setting sensor 1, mode = PERCENT, slope = 0
+> Setting sensor 2, type LIGHT
+> Setting sensor 2, mode = PERCENT, slope = 0
+> Reading sensor 2, requested value CANONICAL, returned value 0
+> Reading sensor 1, requested value CANONICAL, returned value 0
+> Reading sensor 1, requested value CANONICAL, returned value 1
+> Reading sensor 2, requested value CANONICAL, returned value 1
+> Reading sensor 1, requested value CANONICAL, returned value 2
+> Reading sensor 2, requested value CANONICAL, returned value 2
+> Reading sensor 1, requested value CANONICAL, returned value 3
+> Reading sensor 1, requested value CANONICAL, returned value 4
+> Reading sensor 2, requested value CANONICAL, returned value 3
+> Reading sensor 1, requested value CANONICAL, returned value 5
+> Reading sensor 2, requested value CANONICAL, returned value 4
+> Reading sensor 1, requested value CANONICAL, returned value 6
+> Reading sensor 1, requested value CANONICAL, returned value 7
+> Reading sensor 2, requested value CANONICAL, returned value 5
+> Reading sensor 1, requested value CANONICAL, returned value 8
+> Reading sensor 2, requested value CANONICAL, returned value 6
+> Reading sensor 1, requested value CANONICAL, returned value 9
+> Reading sensor 1, requested value CANONICAL, returned value 10
+> Reading sensor 2, requested value CANONICAL, returned value 7
+> Reading sensor 1, requested value CANONICAL, returned value 11
+> Reading sensor 2, requested value CANONICAL, returned value 8
+> Reading sensor 1, requested value CANONICAL, returned value 12
+> Reading sensor 1, requested value CANONICAL, returned value 13
+> Reading sensor 2, requested value CANONICAL, returned value 9
+> Reading sensor 1, requested value CANONICAL, returned value 14
+> Reading sensor 2, requested value CANONICAL, returned value 10
+> Reading sensor 1, requested value CANONICAL, returned value 15
+> Reading sensor 1, requested value CANONICAL, returned value 16
+> Reading sensor 1, requested value CANONICAL, returned value 17
+> Reading sensor 1, requested value CANONICAL, returned value 18
+> Reading sensor 1, requested value CANONICAL, returned value 19
+> Reading sensor 1, requested value CANONICAL, returned value 20
+----------------- Run of TestStringBuffer.tvm
+> set_lcd_number (unsigned) 1
+> refresh_display
+> set_lcd_number (unsigned) 2
+> refresh_display
+> set_lcd_number (unsigned) 3
+> refresh_display
+> set_lcd_number (unsigned) 4
+> refresh_display
+> set_lcd_number (unsigned) 5
+> refresh_display
+> set_lcd_number (unsigned) 6
+> refresh_display
+> set_lcd_number (unsigned) 7
+> refresh_display
+----------------- Run of TestFloatToIntBits.tvm
+> set_lcd_number (unsigned) 123
+> refresh_display
