@@ -2,11 +2,13 @@
 <project version="4">
   <component name="AntConfiguration">
     <defaultAnt name="Apache Ant version 1.9.14" />
-    <buildFile url="file://$PROJECT_DIR$/../lejos2.2/sources/java/classes/classes.xml" />
-    <buildFile url="file://$PROJECT_DIR$/../lejos2.2/sources/java/jtools/jtools.xml" />
-    <buildFile url="file://$PROJECT_DIR$/../lejos2.2/sources/java/pcrcxcomm/pcrcxcomm.xml" />
-    <buildFile url="file://$PROJECT_DIR$/../lejos2.2/sources/java/rcxrcxcomm/rcxrcxcomm.xml" />
-    <buildFile url="file://$PROJECT_DIR$/../lejos2.2/sources/java/regression/regression.xml" />
-    <buildFile url="file://$PROJECT_DIR$/../lejos2.2/sources/java/vision/vision.xml" />
+    <buildFile url="file://$PROJECT_DIR$/leJOS.xml" />
+    <buildFile url="file://$PROJECT_DIR$/classes/classes.xml" />
+    <buildFile url="file://$PROJECT_DIR$/jtools/jtools.xml" />
+    <buildFile url="file://$PROJECT_DIR$/pcrcxcomm/pcrcxcomm.xml" />
+    <buildFile url="file://$PROJECT_DIR$/rcxrcxcomm/rcxrcxcomm.xml" />
+    <buildFile url="file://$PROJECT_DIR$/regression/regression.xml" />
+    <buildFile url="file://$PROJECT_DIR$/ukcrobots/ukcrobots.xml" />
+    <buildFile url="file://$PROJECT_DIR$/vision/vision.xml" />
   </component>
 </project>

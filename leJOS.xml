@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="dist" basedir=".">
+
+  <target name="clean"
+          description="clean up">
+    <!-- PC section -->
+    <!-- independent -->
+    <ant dir="pcrcxcomm" antfile="pcrcxcomm.xml" target="clean"/>
+    <!-- depends on pcrcxcomm -->
+    <ant dir="jtools" antfile="jtools.xml" target="clean"/>
+    <delete>
+      <fileset dir="jtools/lib" includes="**/*.jar"/>
+    </delete>
+    <!-- depends on pcrcxcomm -->
+    <ant dir="vision" antfile="vision.xml" target="clean"/>
+    <delete>
+      <fileset dir="vision/lib" excludes="jmf-2.1.1e.jar" includes="**/*.jar"/>
+    </delete>
+
+    <!-- independent -->
+    <ant dir="classes" antfile="classes.xml" target="clean"/>
+    <!-- depends on classes -->
+    <ant dir="rcxrcxcomm" antfile="rcxrcxcomm.xml" target="clean"/>
+    <delete>
+      <fileset dir="rcxrcxcomm/lib" includes="**/*.jar"/>
+    </delete>
+    <!-- depends on classes -->
+    <ant dir="regression" antfile="regression.xml" target="clean"/>
+    <delete>
+      <fileset dir="regression/lib" includes="**/*.jar"/>
+    </delete>
+    <!-- depends on classes -->
+    <ant dir="ukcrobots" antfile="ukcrobots.xml" target="clean"/>
+    <delete>
+      <fileset dir="ukcrobots/lib" includes="**/*.jar"/>
+    </delete>
+  </target>
+
+  <target name="dist" depends="clean"
+          description="compile the source">
+    <!-- PC section -->
+    <!-- independent -->
+    <ant dir="pcrcxcomm" antfile="pcrcxcomm.xml" target="dist"/>
+    <!-- depends on pcrcxcomm -->
+    <copy todir="jtools/lib">
+      <fileset dir="pcrcxcomm/dist/lib" includes="**/*.jar"/>
+    </copy>
+    <ant dir="jtools" antfile="jtools.xml" target="dist"/>
+    <!-- depends on pcrcxcomm -->
+    <copy todir="vision/lib">
+      <fileset dir="pcrcxcomm/dist/lib" includes="**/*.jar"/>
+    </copy>
+    <ant dir="vision" antfile="vision.xml" target="dist"/>
+
+    <!-- RCX section -->
+    <!-- independent -->
+    <ant dir="classes" antfile="classes.xml" target="dist"/>
+    <!-- depends on classes -->
+    <copy todir="rcxrcxcomm/lib">
+      <fileset dir="classes/dist/lib" includes="**/*.jar"/>
+    </copy>
+    <ant dir="rcxrcxcomm" antfile="rcxrcxcomm.xml" target="dist"/>
+    <!-- depends on classes -->
+    <copy todir="regression/lib">
+      <fileset dir="classes/dist/lib" includes="**/*.jar"/>
+    </copy>
+    <ant dir="regression" antfile="regression.xml" target="dist"/>
+    <!-- depends on classes -->
+    <copy todir="ukcrobots/lib">
+      <fileset dir="classes/dist/lib" includes="**/*.jar"/>
+    </copy>
+    <ant dir="ukcrobots" antfile="ukcrobots.xml" target="dist"/>
+  </target>
+
+</project>

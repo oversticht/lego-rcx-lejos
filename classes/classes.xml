@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="dist" basedir=".">
   <description>
-    simple example build file
+    simple build file
   </description>
   <!-- set global properties for this build -->
   <property name="src.dir" location="src"/>
