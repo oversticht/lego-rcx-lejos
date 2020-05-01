@@ -7,6 +7,6 @@
     </content>
     <orderEntry type="module" module-name="classes" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="OpenJDK14-OpenJ9" jdkType="JavaSDK" />
   </component>
 </module>

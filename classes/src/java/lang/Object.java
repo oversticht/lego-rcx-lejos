@@ -65,7 +65,7 @@ public class Object
     return null;
   }
 
-  private native static int getDataAddress (Object obj);
+  private static native int getDataAddress(Object obj);
 }
 
 

@@ -117,10 +117,10 @@ public class DataOutputStream extends OutputStream {
      * @see        java.io.FilterOutputStream#out
      */
    public final void writeShort(int v) throws IOException {
-      OutputStream out = this.out;
-      out.write((v >>> 8) & 0xFF);
-      out.write((v >>> 0) & 0xFF);
-      incCount(2);
+       OutputStream o = this.out;
+       o.write((v >>> 8) & 0xFF);
+       o.write((v >>> 0) & 0xFF);
+       incCount(2);
    }
 
    /**
@@ -133,10 +133,10 @@ public class DataOutputStream extends OutputStream {
    * @see        java.io.FilterOutputStream#out
    */
    public final void writeChar(int v) throws IOException {
-      OutputStream out = this.out;
-      out.write((v >>> 8) & 0xFF);
-      out.write((v >>> 0) & 0xFF);
-      incCount(2);
+       OutputStream o = this.out;
+       o.write((v >>> 8) & 0xFF);
+       o.write((v >>> 0) & 0xFF);
+       incCount(2);
    }
 
    /**
@@ -149,14 +149,14 @@ public class DataOutputStream extends OutputStream {
    * @see        java.io.FilterOutputStream#out
    */
    public final void writeInt(int v) throws IOException {
-      OutputStream out = this.out;
-      //for(byte i=24;i>=0;i-=8)
-      //   out.write((int)(v >>>  i) & 0xFF);
-      out.write((v >>> 24) & 0xFF);
-      out.write((v >>> 16) & 0xFF);
-      out.write((v >>>  8) & 0xFF);
-      out.write((v >>>  0) & 0xFF);
-      incCount(4);
+       OutputStream o = this.out;
+       //for(byte i=24;i>=0;i-=8)
+       //   out.write((int)(v >>>  i) & 0xFF);
+       o.write((v >>> 24) & 0xFF);
+       o.write((v >>> 16) & 0xFF);
+       o.write((v >>> 8) & 0xFF);
+       o.write((v >>> 0) & 0xFF);
+       incCount(4);
    }
 
    /**

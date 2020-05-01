@@ -4,14 +4,13 @@ import java.awt.*;
 import java.io.*;
 import java.util.*;
 import java.awt.event.*;
+import javax.imageio.ImageIO;
 import javax.media.*;
 import javax.media.control.TrackControl;
 import javax.media.format.*;
 import javax.media.protocol.*;
-import javax.media.datasink.*;
 import javax.media.control.*;
 import javax.sound.sampled.*;
-import com.sun.image.codec.jpeg.*;
 import java.awt.image.*;
 
 /**
@@ -500,10 +499,6 @@ public class Vision extends Frame implements ControllerListener {
 
     FileOutputStream fOut = new FileOutputStream(fn);
 
-    // Create a JPG encoder for the file
-
-    JPEGImageEncoder jpeg_encode = JPEGCodec.createJPEGEncoder(fOut);
-
     // Reformat the data to an  array on int
 
     int ints[] = new int[data.length/3];
@@ -523,9 +518,8 @@ public class Vision extends Frame implements ControllerListener {
     image.setRGB(0,0,width,height,ints,0,width);
 
     // Encode the image and close the output file
-
-    jpeg_encode.encode(image);
-    fOut.close();
+      ImageIO.write(image, "jpeg", fOut);
+      fOut.close();
   }
 
   /**

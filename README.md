@@ -31,6 +31,9 @@ As leJOS is Java, I have IntelliJ IDEA community edition as programming environm
 
 Java 5 is the maximum version for leJOS and the minimum version voor Apache Ant 1.9.14 so Java 5 is just right. An Ant build script can compile the java source code and send it directly to the RCX, all from the programming environment.
 
+## Jikes
+To get rid of the Java 5 dependency, I switched to using Jikes for the classes that run on the RCX. Though the Jikes compiler has been unsupported for a long time, it works well for Java 1.1 which we need for leJOS. Classes that run on a PC can be compiled with a modern Java compiler. I use OpenJDK14 (OpenJ9).
+
 ## Scratch
 To allow easier access to programming the RCX for children, I developed a minimal Scratch/SB3-to-leJOS/RCX compiler:
 * https://github.com/swolla/scratch-lejos-rcx

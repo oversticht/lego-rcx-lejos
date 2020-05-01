@@ -102,9 +102,9 @@ public class DataInputStream extends InputStream {
    }
    /*
    public final int readUnsignedShort() throws IOException {
-      InputStream in = this.in;
-      int ch1 = in.read();
-      int ch2 = in.read();
+      InputStream i = this.in;
+      int ch1 = i.read();
+      int ch2 = i.read();
       if ((ch1 | ch2) < 0)
          throw new IOException();
       return (ch1 << 8) + (ch2 << 0);
@@ -112,12 +112,12 @@ public class DataInputStream extends InputStream {
    */
    
    public final char readChar() throws IOException {
-      InputStream in = this.in;
-      int ch1 = in.read();
-      int ch2 = in.read();
+      InputStream i = this.in;
+      int ch1 = i.read();
+      int ch2 = i.read();
       if ((ch1 | ch2) < 0)
          throw new IOException();
-      return (char)((ch1 << 8) + (ch2 << 0));
+      return (char) ((ch1 << 8) + (ch2 << 0));
    }
 
    public final int readInt() throws IOException {

@@ -1,7 +1,6 @@
 package josx.robotics;
 
-import josx.platform.rcx.*;
-import josx.util.*;
+import josx.platform.rcx.Motor;
 
 // !! Should all methods call stop() first in case it was roaming?
 // OR methods account for RCX currently in moving mode
@@ -183,29 +182,29 @@ public class TimingNavigator implements Navigator {
       float y1 = y - this.y;
 
       // Calculate angle to go to:
-      float angle = (float)Math.atan2(y1,x1);
+       float newAngle = (float) Math.atan2(y1, x1);
 
       // Calculate distance to travel:
       float distance;
       if(y1 != 0)
-         distance = y1/(float)Math.sin(angle);
+          distance = y1 / (float) Math.sin(newAngle);
       else
-         distance = x1/(float)Math.cos(angle);
+          distance = x1 / (float) Math.cos(newAngle);
 
       // Convert angle from rads to degrees:
-      angle = (float)Math.toDegrees(angle);
+       newAngle = (float) Math.toDegrees(newAngle);
       
       // Now convert theory into action:
-      gotoAngle(angle);
-      travel(Math.round(distance));
+       gotoAngle(newAngle);
+       travel(Math.round(distance));
    }
 
-   /**
-   * Moves the RCX robot a specific distance. A positive value moves it forwards and
-   * a negative value moves it backwards. Method returns when movement is done.
-   *
-   * @param centimeters The positive or negative distance to move the robot (in centimeters).
-   */
+    /**
+     * Moves the RCX robot a specific distance. A positive value moves it forwards and
+     * a negative value moves it backwards. Method returns when movement is done.
+     *
+     * @param distance The positive or negative distance to move the robot (in centimeters).
+     */
    public void travel(int distance) {
       
       if(distance > 0) {
@@ -216,10 +215,9 @@ public class TimingNavigator implements Navigator {
       travel = true;
       int delay = (int)(CENTIMETER * Math.abs(distance));
       
-      sleepThread = Thread.currentThread();
       try {
-         sleepThread.sleep(delay);
-         travel = false;
+          Thread.sleep(delay);
+          travel = false;
          stop(); // Will not be called if Interrupted
       } catch (InterruptedException ie) {
          travel = false;
