@@ -1,7 +1,8 @@
 # lego-rcx-lejos
-Running the leJOS VM on a Lego Mindstorms RCX in 2020 takes some effort. This has been done and documented a few years ago: 
+Running the leJOS VM on a Lego Mindstorms RCX in 2020 takes some effort. This has been done and has been documented a few years ago: 
 * 2015: https://www.instructables.com/id/Making-Mindstorms-RCX-Work-Again/
 * 2017: http://www.johnholbrook.us/edu/RCX_guide.html
+Many resources are available on github: https://github.com/BrickBot
 
 ## Hardware
 Recently I got my hands on a Lego Robotics Invention System 1.5 from 1999. It contains an RCX 1.0 without a power jack, two touch sensors, a light sensor, two 9v motors and a serial IR Transmitter Tower. I got the Serial IR Tower working using a LogiLink AU0002E RS232 adapter.
