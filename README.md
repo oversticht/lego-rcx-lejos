@@ -2,6 +2,7 @@
 Running the leJOS VM on a Lego Mindstorms RCX in 2020 takes some effort. This has been done and has been documented a few years ago: 
 * 2015: https://www.instructables.com/id/Making-Mindstorms-RCX-Work-Again/
 * 2017: http://www.johnholbrook.us/edu/RCX_guide.html
+
 Many resources are available on github: https://github.com/BrickBot
 
 ## Hardware
